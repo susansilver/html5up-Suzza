@@ -2772,7 +2772,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #90CAF9;
 				}
 
 		#header > nav {
@@ -2841,7 +2841,7 @@ input, select, textarea {
 	#footer {
 		background: #fafafa;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #212121;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
