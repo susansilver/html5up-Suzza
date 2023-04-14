@@ -56,26 +56,40 @@
 										<h2>A Creator Who Knows Their Way Around the Back-End</h2>
 										<p>The ways we use <span style="font-style: italic;">Content Management Systems</span> <span style="font-style: strong;">(CMS)</span> are changing as write once publish everywhere is a reality for all.</p>
 									</header>
-									<p>I've been using WordPress as my CMS for most of my career as a freelance creator. I was heavily influenced by the book
-									 "<a href="https://www.amazon.com/Content-Everywhere-Strategy-Structure-Future-Ready/dp/193382087X" target="_blank">Content Everywhere: Strategy and Structure For Future-Ready Content"</a>
-									  by Sara Wachter-Boettcher. This book was published in 2014 near the time that responsive design was becoming the standard for websites.
-									  Wachter-Boettcher was inspired by this, to develop a system to orchestrate content that allowed writers to easily publish and have the engineers make it available everywhere. 
-									  Typically, through the use of a content API.</p>
-									
-										<p>JAMstack has made this easy to use for individuals. It is short for a tech stack that includes JavaScrpt, API, and Markdown.
-											There are now tools out there like <a href="https://www.11ty.dev/">Eleventy</a> that make templating a site easy. It ships
-											HTML and a minimal amount of CSS and JavaScript to the browser. </p>
+									<p>
 
-											<p>This allowed me to take full advantage as a self-taught dev to convert my WordPress site
-											to a static site generator called <a href="astro.build">Astro</a>. What sets this one apart is that it ships no JavaScript to the browser
-											unless you tell it to. It uses island architecture and partial hydration. The client directives allow components to become interactive at the time you specify. 
-											It is really neat and it makes my <a href="beautyofmathematics.com">mathematics blog</a> load super fast.</p> 
-
-										<p> This technology has really inspired me to become a back-end developer. I want to be able to build my own content API from scratch. 
-											I also want to learn how to work with databases so that I can build apps that have persistant data. That is what I will be working
-											on this year. I see it as fullfiling my needs as a creator to have full control of my content. You can follow me on this journey
-											by reading my blog at <a href="suzza.dev">Suzza.dev</a>.
-										</p>
+										One book that had a huge influence on me is
+										<a href="https://www.amazon.com/Content-Everywhere-Strategy-Structure-Future-Ready/dp/193382087X">"Content Everywhere" by Sara Wachter-Boettcher</a>.
+									    I read that
+										book in 2014! Almost a decade ago. That is when I first heard of an API, application programming interface.
+										This is a way that we can grab blogs, images, and other data from a CMS and import
+										it anywhere that we want! This seemed out of reach to me because you needed a back-end dev to build a content API. So they were 
+										used by enterprise business and startups. Not so much for individuals or small businesses. We had to use WordPress.
+									</p>
+									<p>
+										This has changed in the past few years as the JAMstack and static site fenerators (SSG) have made it much easier to use API
+										for building a blog. JAMstack refers to a tech stack made of JavaScript, API, and Markup. Websites are templated and assets
+										can be served via a Content Delievery Network (CDN). 
+										<a href="https://www.netlify.com/blog/2020/04/14/what-is-a-static-site-generator-and-3-ways-to-find-the-best-one/">Content is pre-buiilt and loaded in advance.</a> 
+										This allows websites to
+										load quickly all around the world! Popular static site generators include Jekyll, Eleventy, and Hugo.
+									</p>
+									<p>
+										This year, I converted my WordPress blog to an Astro website. Astro is an SSG with some unique ideas. It uses 
+										<a href="https://docs.astro.build/en/concepts/islands/">island architecture and partial hydration</a>. This means that components become interactive
+										when you want them to.
+										For example, only load scripts if a component is visible. If a user never browses to see that component then nothing runs. This does 
+										not interfere with any other compontent on the page. Hence each one is its own island. 
+									</p>
+									<p>
+										I am a completely self-taught developer. I managed to build my <a href="beautyofmathematics.com">math blog</a> into an Astro site. 
+										This puts a SSG into the hands of solopreneurs and small business. The technology has never been easier to use!
+										You can still continue to use WordPress. That is what is meant by Headless
+										WordPress. It decouples the back-end from the front-end. You use WordPress as a pure CMS using the REST API to grab your content. You can 
+										then build your front-end using any framework you choose, even Astro will work. I have discovered a new love of back-end development. 
+										I want to learn how to build a content API and create apps that use a database to keep presistent data. You can follow my journey
+										at <a href="Suzza.dev">Suzza.dev</a>.
+									</p>
 								</div>
 							</section>
 
